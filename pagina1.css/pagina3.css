@@ -1,0 +1,88 @@
+.contenedor{
+    display: grid;
+    grid-template-columns:250px 250px 250px 250px 250px 250px ;
+    grid-template-rows:250px 90px 480px 50px ;
+    grid-template-areas:
+    'enc enc enc enc enc enc'
+    'enl enl enl enl enl enl'
+    'for for con con info info'
+    'pie pie pie pie pie pie'
+    ;
+}
+.enc{
+    background-color: bisque;
+    grid-area: enc;
+}
+.enl{
+    background-color: rgb(109, 85, 56);
+    grid-area: enl;
+}
+.for{
+    background-color: rgb(207, 152, 83);
+    grid-area: for;
+}
+.con{
+    background-color: rgb(150, 101, 42);
+    grid-area: con;
+}
+.info{
+    background-color: rgb(172, 145, 113);
+    grid-area: info;
+}
+.pie{
+    background-color: burlywood;
+    grid-area: pie;
+}
+input, select {
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    
+}
+.img2{
+    width: 1500px;
+    height: 250px;}
+a{
+    text-decoration: none;
+    color: azure;
+}
+main{
+    text-align: center;
+}
+.img1{
+    width: 500px;
+    height: 480px;
+}
+.img3{
+    width: 500px;
+    height: 480px;
+}
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.diagrams {
+    display: flex;
+    justify-content: space-around;
+}
+
+.diagrams img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    
+}

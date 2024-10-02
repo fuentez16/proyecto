@@ -1,0 +1,94 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px 250px;
+    grid-template-rows: 250px 90px 480px 50px;
+    grid-template-areas: 
+    'enc enc enc enc enc enc'
+    'enl enl enl enl enl enl'
+    'for for con con con info'
+    'pie pie pie pie pie pie'
+    ;
+}
+.enc{
+    background-color: bisque;
+    grid-area: enc;
+}
+.enl{
+    background-color: rgb(109, 85, 56);
+    grid-area: enl;
+}
+.for{
+    background-color: rgb(207, 152, 83);
+    grid-area: for;
+}
+.con{
+    background-color: rgb(150, 101, 42);
+    grid-area: con;
+}
+.info{
+    background-color: rgb(172, 145, 113);
+    grid-area: info;
+}
+.pie{
+    background-color: burlywood;
+    grid-area: pie;
+}
+.img2{
+    width: 1500px;
+    height: 250px;
+}
+a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cornsilk;
+}
+main{
+    text-align: center;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+form {
+    margin: 20px 0;
+}
+
+label, input {
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.img3{
+    height: 425px;
+    width: 500px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    
+    
+}

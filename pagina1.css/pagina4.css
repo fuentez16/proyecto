@@ -1,0 +1,48 @@
+.contenedor{
+    display: grid;
+     grid-template-columns:250px 250px 250px 250px 250px 250px; 
+    grid-template-rows:250px 85px 450px 50px;
+    grid-template-areas:
+    'enc enc enc enc enc enc'
+    'enl enl enl enl enl enl'
+    'inf inf con con con nen'
+    'pie pie pie pie pie pie'
+                                                                                                 
+    ;
+}
+.enc{
+    background-color: bisque;
+    grid-area: enc;
+}
+.enl{
+    background-color: cadetblue;
+    grid-area: enl;
+}
+.inf{
+    background-color: cornflowerblue;
+    grid-area: inf;
+}
+.con{
+    background-color: blanchedalmond;
+    grid-area: con;
+}
+.nen{
+    background-color: burlywood;
+    grid-area: nen;
+}
+.pie{
+    background-color: darkgrey;
+    grid-area: pie;
+}
+.img5{
+    width: 1500px;
+   height: 250px;
+}
+a{
+    text-decoration: none;
+    color: cornsilk;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+main{
+    text-align: center;
+}
